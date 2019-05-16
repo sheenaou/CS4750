@@ -1,0 +1,637 @@
+#########################################################
+#  CS 4750 (Fall 2018), Assignment #2                  ##
+#          Script File Name: reconstruct.py            ##
+#          Student Name: Sheena Ou                     ##
+#          Login Name: so7122                          ##
+#          MUN #: 201523958                            ##
+#########################################################
+
+C:\Users\Sheena\ECE Term 6\NLP\Assignment_2>C:\Python27\python.exe reconstruct.py
+usage: reconstruct.py surface/lexical wlf/wsf F1 F2 ... Fn
+C:\Users\Sheena\ECE Term 6\NLP\Assignment_2>C:\Python27\python.exe reconstruct.py surface word.lex vcePlu.fst
+Composed FST has 6 states and  34 transitions
+Lexical Form: tpbdeoszSZP
+Surface Form(s):
+************************
+Lexical Form: potPs
+Surface Form(s):
+potPs
+************************
+Lexical Form: podPs
+Surface Form(s):
+podPz
+************************
+Lexical Form: poSPs
+Surface Form(s):
+poSPs
+************************
+Lexical Form: poZPs
+Surface Form(s):
+poZPz
+************************
+Lexical Form: SopPs
+Surface Form(s):
+SopPs
+************************
+Lexical Form: ZopPs
+Surface Form(s):
+ZopPs
+************************
+Lexical Form: doPs
+Surface Form(s):
+doPz
+************************
+Lexical Form: dopPs
+Surface Form(s):
+dopPs
+************************
+Lexical Form: bosPs
+Surface Form(s):
+bosPs
+************************
+Lexical Form: bots
+Surface Form(s):
+bots
+************************
+Lexical Form: bodz
+Surface Form(s):
+bodz
+************************
+Lexical Form: boSes
+Surface Form(s):
+boSes
+************************
+Lexical Form: boZes
+Surface Form(s):
+boZes
+************************
+Lexical Form: bozes
+Surface Form(s):
+bozes
+************************
+C:\Users\Sheena\ECE Term 6\NLP\Assignment_2>C:\Python27\python.exe reconstruct.py lexical word.srf vcePlu.fst
+Composed FST has 6 states and  34 transitions
+Surface Form: pots
+Lexical Form(s):
+pots
+************************
+Surface Form: podz
+Lexical Form(s):
+podz
+************************
+Surface Form: poSes
+Lexical Form(s):
+poSes
+************************
+Surface Form: poZes
+Lexical Form(s):
+poZes
+************************
+Surface Form: Sops
+Lexical Form(s):
+Sops
+************************
+Surface Form: Zops
+Lexical Form(s):
+Zops
+************************
+Surface Form: doz
+Lexical Form(s):
+doz
+************************
+Surface Form: dops
+Lexical Form(s):
+dops
+************************
+Surface Form: bots
+Lexical Form(s):
+bots
+************************
+Surface Form: bodz
+Lexical Form(s):
+bodz
+************************
+Surface Form: boSes
+Lexical Form(s):
+boSes
+************************
+Surface Form: boZes
+Lexical Form(s):
+boZes
+************************
+Surface Form: boses
+Lexical Form(s):
+boses
+************************
+Surface Form: bozes
+Lexical Form(s):
+bozes
+************************
+C:\Users\Sheena\ECE Term 6\NLP\Assignment_2>C:\Python27\python.exe reconstruct.py surface word.lex addVowPlu.fst
+Composed FST has 6 states and  35 transitions
+Lexical Form: tpbdeoszSZP
+Surface Form(s):
+************************
+Lexical Form: potPs
+Surface Form(s):
+potPs
+************************
+Lexical Form: podPs
+Surface Form(s):
+podPs
+************************
+Lexical Form: poSPs
+Surface Form(s):
+poSPes
+************************
+Lexical Form: poZPs
+Surface Form(s):
+poZPes
+************************
+Lexical Form: SopPs
+Surface Form(s):
+SopPs
+************************
+Lexical Form: ZopPs
+Surface Form(s):
+ZopPs
+************************
+Lexical Form: doPs
+Surface Form(s):
+doPs
+************************
+Lexical Form: dopPs
+Surface Form(s):
+dopPs
+************************
+Lexical Form: bosPs
+Surface Form(s):
+bosPes
+************************
+Lexical Form: bots
+Surface Form(s):
+bots
+************************
+Lexical Form: bodz
+Surface Form(s):
+bodz
+************************
+Lexical Form: boSes
+Surface Form(s):
+boSes
+************************
+Lexical Form: boZes
+Surface Form(s):
+boZes
+************************
+Lexical Form: bozes
+Surface Form(s):
+bozes
+************************
+C:\Users\Sheena\ECE Term 6\NLP\Assignment_2>C:\Python27\python.exe reconstruct.py lexical word.srf addVowPlu.fst
+Composed FST has 6 states and  35 transitions
+Surface Form: pots
+Lexical Form(s):
+pots
+************************
+Surface Form: podz
+Lexical Form(s):
+podz
+************************
+Surface Form: poSes
+Lexical Form(s):
+poSes
+************************
+Surface Form: poZes
+Lexical Form(s):
+poZes
+************************
+Surface Form: Sops
+Lexical Form(s):
+Sops
+************************
+Surface Form: Zops
+Lexical Form(s):
+Zops
+************************
+Surface Form: doz
+Lexical Form(s):
+doz
+************************
+Surface Form: dops
+Lexical Form(s):
+dops
+************************
+Surface Form: bots
+Lexical Form(s):
+bots
+************************
+Surface Form: bodz
+Lexical Form(s):
+bodz
+************************
+Surface Form: boSes
+Lexical Form(s):
+boSes
+************************
+Surface Form: boZes
+Lexical Form(s):
+boZes
+************************
+Surface Form: boses
+Lexical Form(s):
+boses
+************************
+Surface Form: bozes
+Lexical Form(s):
+bozes
+************************
+C:\Users\Sheena\ECE Term 6\NLP\Assignment_2>C:\Python27\python.exe reconstruct.py surface word.lex vcePlu.fst addVowPlu.fst
+Composed FST has 36 states and  113 transitions
+Lexical Form: tpbdeoszSZP
+Surface Form(s):
+************************
+Lexical Form: potPs
+Surface Form(s):
+potPs
+************************
+Lexical Form: podPs
+Surface Form(s):
+podPz
+************************
+Lexical Form: poSPs
+Surface Form(s):
+poSPes
+************************
+Lexical Form: poZPs
+Surface Form(s):
+poZPez
+************************
+Lexical Form: SopPs
+Surface Form(s):
+SopPs
+************************
+Lexical Form: ZopPs
+Surface Form(s):
+ZopPs
+************************
+Lexical Form: doPs
+Surface Form(s):
+doPz
+************************
+Lexical Form: dopPs
+Surface Form(s):
+dopPs
+************************
+Lexical Form: bosPs
+Surface Form(s):
+bosPes
+************************
+Lexical Form: bots
+Surface Form(s):
+bots
+************************
+Lexical Form: bodz
+Surface Form(s):
+bodz
+************************
+Lexical Form: boSes
+Surface Form(s):
+boSes
+************************
+Lexical Form: boZes
+Surface Form(s):
+boZes
+************************
+Lexical Form: bozes
+Surface Form(s):
+bozes
+************************
+C:\Users\Sheena\ECE Term 6\NLP\Assignment_2>C:\Python27\python.exe econstruct.py lexical word.srf vceP
+lu.fst addVowPlu.fst
+C:\Python27\python.exe: can't open file 'econstruct.py': [Errno 2] No such file or director
+C:\Users\Sheena\ECE Term 6\NLP\Assignment_2>C:\Python27\python.exe reconstruct.py lexical word.srf vcePlu.fst addVowPlu.fst
+Composed FST has 36 states and  113 transitions
+Surface Form: pots
+Lexical Form(s):
+pots
+************************
+Surface Form: podz
+Lexical Form(s):
+podz
+************************
+Surface Form: poSes
+Lexical Form(s):
+poSes
+************************
+Surface Form: poZes
+Lexical Form(s):
+poZes
+************************
+Surface Form: Sops
+Lexical Form(s):
+Sops
+************************
+Surface Form: Zops
+Lexical Form(s):
+Zops
+************************
+Surface Form: doz
+Lexical Form(s):
+doz
+************************
+Surface Form: dops
+Lexical Form(s):
+dops
+************************
+Surface Form: bots
+Lexical Form(s):
+bots
+************************
+Surface Form: bodz
+Lexical Form(s):
+bodz
+************************
+Surface Form: boSes
+Lexical Form(s):
+boSes
+************************
+Surface Form: boZes
+Lexical Form(s):
+boZes
+************************
+Surface Form: boses
+Lexical Form(s):
+boses
+************************
+Surface Form: bozes
+Lexical Form(s):
+bozes
+************************
+C:\Users\Sheena\ECE Term 6\NLP\Assignment_2>C:\Python27\python.exe reconstruct.py surface word.lex vcePlu.fst addVowPlu.fst delPlu1.fst
+Composed FST has 72 states and  222 transitions
+Lexical Form: tpbdeoszSZP
+Surface Form(s):
+************************
+Lexical Form: potPs
+Surface Form(s):
+pots
+************************
+Lexical Form: podPs
+Surface Form(s):
+podz
+************************
+Lexical Form: poSPs
+Surface Form(s):
+poSes
+************************
+Lexical Form: poZPs
+Surface Form(s):
+poZez
+************************
+Lexical Form: SopPs
+Surface Form(s):
+Sops
+************************
+Lexical Form: ZopPs
+Surface Form(s):
+Zops
+************************
+Lexical Form: doPs
+Surface Form(s):
+doz
+************************
+Lexical Form: dopPs
+Surface Form(s):
+dops
+************************
+Lexical Form: bosPs
+Surface Form(s):
+boses
+************************
+Lexical Form: bots
+Surface Form(s):
+bots
+************************
+Lexical Form: bodz
+Surface Form(s):
+bodz
+************************
+Lexical Form: boSes
+Surface Form(s):
+boSes
+************************
+Lexical Form: boZes
+Surface Form(s):
+boZes
+************************
+Lexical Form: bozes
+Surface Form(s):
+bozes
+************************
+C:\Users\Sheena\ECE Term 6\NLP\Assignment_2>C:\Python27\python.exe reconstruct.py lexical word.srf vcePlu.fst addVowPlu.fst delPlu1.fst
+Composed FST has 72 states and  222 transitions
+Surface Form: pots
+Lexical Form(s):
+pots
+potPs
+************************
+Surface Form: podz
+Lexical Form(s):
+podz
+podPs
+************************
+Surface Form: poSes
+Lexical Form(s):
+poSes
+poSPs
+************************
+Surface Form: poZes
+Lexical Form(s):
+poZes
+************************
+Surface Form: Sops
+Lexical Form(s):
+Sops
+SopPs
+************************
+Surface Form: Zops
+Lexical Form(s):
+Zops
+ZopPs
+************************
+Surface Form: doz
+Lexical Form(s):
+doz
+doPs
+************************
+Surface Form: dops
+Lexical Form(s):
+dops
+dopPs
+************************
+Surface Form: bots
+Lexical Form(s):
+bots
+botPs
+************************
+Surface Form: bodz
+Lexical Form(s):
+bodz
+bodPs
+************************
+Surface Form: boSes
+Lexical Form(s):
+boSes
+boSPs
+************************
+Surface Form: boZes
+Lexical Form(s):
+boZes
+************************
+Surface Form: boses
+Lexical Form(s):
+boses
+bosPs
+************************
+Surface Form: bozes
+Lexical Form(s):
+bozes
+************************
+C:\Users\Sheena\ECE Term 6\NLP\Assignment_2>C:\Python27\python.exe reconstruct.py surface word.lex vcePlu.fst addVowPlu.fst delPlu2.fst
+Composed FST has 139 states and  191 transitions
+Lexical Form: tpbdeoszSZP
+Surface Form(s):
+************************
+Lexical Form: potPs
+Surface Form(s):
+pots
+************************
+Lexical Form: podPs
+Surface Form(s):
+podz
+************************
+Lexical Form: poSPs
+Surface Form(s):
+poSes
+************************
+Lexical Form: poZPs
+Surface Form(s):
+poZez
+************************
+Lexical Form: SopPs
+Surface Form(s):
+Sops
+************************
+Lexical Form: ZopPs
+Surface Form(s):
+Zops
+************************
+Lexical Form: doPs
+Surface Form(s):
+doz
+************************
+Lexical Form: dopPs
+Surface Form(s):
+dops
+************************
+Lexical Form: bosPs
+Surface Form(s):
+boses
+************************
+Lexical Form: bots
+Surface Form(s):
+bots
+************************
+Lexical Form: bodz
+Surface Form(s):
+bodz
+************************
+Lexical Form: boSes
+Surface Form(s):
+boSes
+************************
+Lexical Form: boZes
+Surface Form(s):
+boZes
+************************
+Lexical Form: bozes
+Surface Form(s):
+bozes
+************************
+C:\Users\Sheena\ECE Term 6\NLP\Assignment_2>C:\Python27\python.exe reconstruct.py lexical word.srf vcePlu.fst addVowPlu.fst delPlu2.fst
+Composed FST has 139 states and  191 transitions
+Surface Form: pots
+Lexical Form(s):
+pots
+potPs
+************************
+Surface Form: podz
+Lexical Form(s):
+podz
+podPs
+************************
+Surface Form: poSes
+Lexical Form(s):
+poSes
+poSPs
+************************
+Surface Form: poZes
+Lexical Form(s):
+poZes
+************************
+Surface Form: Sops
+Lexical Form(s):
+Sops
+SopPs
+************************
+Surface Form: Zops
+Lexical Form(s):
+Zops
+ZopPs
+************************
+Surface Form: doz
+Lexical Form(s):
+doz
+doPs
+************************
+Surface Form: dops
+Lexical Form(s):
+dops
+dopPs
+************************
+Surface Form: bots
+Lexical Form(s):
+bots
+botPs
+************************
+Surface Form: bodz
+Lexical Form(s):
+bodz
+bodPs
+************************
+Surface Form: boSes
+Lexical Form(s):
+boSes
+boSPs
+************************
+Surface Form: boZes
+Lexical Form(s):
+boZes
+************************
+Surface Form: boses
+Lexical Form(s):
+boses
+bosPs
+************************
+Surface Form: bozes
+Lexical Form(s):
+bozes
+************************
+
+
+
+
+
+
+

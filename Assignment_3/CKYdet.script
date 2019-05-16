@@ -1,0 +1,95 @@
+C:\Users\Sheena\Documents\School\ECE Term 6\NLP\Assignment_3>C:\Python27\python.exe CKYdet.py g1.ecfg u1a.utt
+CASE 1 : no valid parse
+----------------------------------
+CASE 2 : no valid parse
+----------------------------------
+CASE 3 : no valid parse
+----------------------------------
+
+C:\Users\Sheena\Documents\School\ECE Term 6\NLP\Assignment_3>C:\Python27\python.exe CKYdet.py g1.ecfg u1b.utt
+CASE 1 : this is a valid parse
+PARSE 1 ==> [S [NP [Det "the"][N "dog"]][VP [V "bit"][NP [Det "the"][N "rat"]]]]
+----------------------------------
+CASE 2 : this is a valid parse
+PARSE 1 ==> [S [NP [PN "Bob"]][VP [V "admired"][NP [Det "the"][N "elephant"]]]]
+----------------------------------
+CASE 3 : this is a valid parse
+PARSE 1 ==> [S [NP [PN "Alice"]][VP [V "chased"][NP [PN "Alice"]]]]
+----------------------------------
+CASE 4 : this is a valid parse
+PARSE 1 ==> [S [NP [Det "the"][N "rat"]][VP [V "chased"][NP [Det "the"][N "elephant"]]]]
+----------------------------------
+
+C:\Users\Sheena\Documents\School\ECE Term 6\NLP\Assignment_3>C:\Python27\python.exe CKYdet.py g2.ecfg u2a.utt
+CASE 1 : no valid parse
+----------------------------------
+CASE 2 : no valid parse
+----------------------------------
+CASE 3 : no valid parse
+----------------------------------
+CASE 4 : no valid parse
+----------------------------------
+
+C:\Users\Sheena\Documents\School\ECE Term 6\NLP\Assignment_3>C:\Python27\python.exe CKYdet.py g2.ecfg u2b.utt
+CASE 1 : this is a valid parse
+PARSE 1 ==> [S [NP [Det "the"][N "cat"]][S1F [VF "cried"]]]
+----------------------------------
+CASE 2 : this is a valid parse
+PARSE 1 ==> [S [NP [Det "the"][N "cat"]][S1F [S2 [NP [Det "the"][N "rat"]][S1 [V "bit"]]][VF "died"]]]
+----------------------------------
+CASE 3 : this is a valid parse
+PARSE 1 ==> [S [NP [Det "the"][N "dog"]][S1F [S2 [NP [Det "the"][N "cat"]][S1 [S2 [NP [Det "the"][N "elephant"]][S1 [S2 [NP [Det "the"][N "
+cat"]][S1 [V "bit"]]][V "chased"]]][V "admired"]]][VF "burped"]]]
+----------------------------------
+
+C:\Users\Sheena\Documents\School\ECE Term 6\NLP\Assignment_3>C:\Python27\python.exe CKYdet.py g3.ecfg u3a.utt
+CASE 1 : no valid parse
+----------------------------------
+CASE 2 : no valid parse
+----------------------------------
+CASE 3 : no valid parse
+----------------------------------
+
+C:\Users\Sheena\Documents\School\ECE Term 6\NLP\Assignment_3>C:\Python27\python.exe CKYdet.py g3.ecfg u3b.utt
+CASE 1 : this is a valid parse
+PARSE 1 ==> [S [NP [PN "Houston"]][VP [V "shot"][NP [Det "an"][N "elephant"]]]]
+----------------------------------
+CASE 2 : this is a valid parse
+PARSE 1 ==> [S [NP [Prn "I"]][VP [V "shot"][NP [NP [Det "an"][N "elephant"]][PP [P "in"][NP [Poss "my"][N "pajamas"]]]]]]
+PARSE 2 ==> [S [NP [Prn "I"]][VP [VP [V "shot"][NP [Det "an"][N "elephant"]]][PP [P "in"][NP [Poss "my"][N "pajamas"]]]]]
+PARSE 3 ==> [S [X1 [NP [Prn "I"]][VP [V "shot"][NP [Det "an"][N "elephant"]]]][PP [P "in"][NP [Poss "my"][N "pajamas"]]]]
+----------------------------------
+CASE 3 : this is a valid parse
+PARSE 1 ==> [S [VP [V "book"][NP [NP [Det "the"][N "flight"]][PP [P "through"][NP [PN "Houston"]]]]]]
+PARSE 2 ==> [S [VP [VP [V "book"][NP [Det "the"][N "flight"]]][PP [P "through"][NP [PN "Houston"]]]]]
+----------------------------------
+CASE 4 : this is a valid parse
+PARSE 1 ==> [S [VP [V "shoot"][NP [NP [Det "the"][N "elephant"]][PP [P "in"][NP [Poss "my"][N "pajamas"]]]]]]
+PARSE 2 ==> [S [VP [VP [V "shoot"][NP [Det "the"][N "elephant"]]][PP [P "in"][NP [Poss "my"][N "pajamas"]]]]]
+----------------------------------
+CASE 5 : this is a valid parse
+PARSE 1 ==> [S [NP [NP [PN "Houston"]][PP [P "in"][NP [Poss "my"][N "book"]]]][VP [V "shot"][NP [NP [Det "an"][N "elephant"]][PP [P "in"][N
+P [Det "the"][N "pajamas"]]]]]]
+PARSE 2 ==> [S [NP [NP [PN "Houston"]][PP [P "in"][NP [Poss "my"][N "book"]]]][VP [VP [V "shot"][NP [Det "an"][N "elephant"]]][PP [P "in"][
+NP [Det "the"][N "pajamas"]]]]]
+PARSE 3 ==> [S [X1 [NP [NP [PN "Houston"]][PP [P "in"][NP [Poss "my"][N "book"]]]][VP [V "shot"][NP [Det "an"][N "elephant"]]]][PP [P "in"]
+[NP [Det "the"][N "pajamas"]]]]
+----------------------------------
+CASE 6 : this is a valid parse
+PARSE 1 ==> [S [NP [PN "Houston"]][VP [V "shot"][NP [NP [Det "an"][N "elephant"]][PP [P "in"][NP [NP [Poss "my"][N "pajamas"]][PP [P "in"][
+NP [PN "Houston"]]]]]]]]
+PARSE 2 ==> [S [NP [PN "Houston"]][VP [V "shot"][NP [NP [NP [Det "an"][N "elephant"]][PP [P "in"][NP [Poss "my"][N "pajamas"]]]][PP [P "in"
+][NP [PN "Houston"]]]]]]
+PARSE 3 ==> [S [NP [PN "Houston"]][VP [VP [V "shot"][NP [Det "an"][N "elephant"]]][PP [P "in"][NP [NP [Poss "my"][N "pajamas"]][PP [P "in"]
+[NP [PN "Houston"]]]]]]]
+PARSE 4 ==> [S [NP [PN "Houston"]][VP [VP [V "shot"][NP [NP [Det "an"][N "elephant"]][PP [P "in"][NP [Poss "my"][N "pajamas"]]]]][PP [P "in
+"][NP [PN "Houston"]]]]]
+PARSE 5 ==> [S [NP [PN "Houston"]][VP [VP [VP [V "shot"][NP [Det "an"][N "elephant"]]][PP [P "in"][NP [Poss "my"][N "pajamas"]]]][PP [P "in
+"][NP [PN "Houston"]]]]]
+PARSE 6 ==> [S [X1 [NP [PN "Houston"]][VP [V "shot"][NP [Det "an"][N "elephant"]]]][PP [P "in"][NP [NP [Poss "my"][N "pajamas"]][PP [P "in"
+][NP [PN "Houston"]]]]]]
+PARSE 7 ==> [S [X1 [NP [PN "Houston"]][VP [V "shot"][NP [NP [Det "an"][N "elephant"]][PP [P "in"][NP [Poss "my"][N "pajamas"]]]]]][PP [P "i
+n"][NP [PN "Houston"]]]]
+PARSE 8 ==> [S [X1 [NP [PN "Houston"]][VP [VP [V "shot"][NP [Det "an"][N "elephant"]]][PP [P "in"][NP [Poss "my"][N "pajamas"]]]]][PP [P "i
+n"][NP [PN "Houston"]]]]
+----------------------------------
